@@ -59,10 +59,6 @@ font: italic #FFF;
   height: 30%;
   align-items: flex-start;
   margin-top: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  gap: 1rem;
-  flex-wrap: wrap;
 }
 .container > div 
 {
