@@ -36,20 +36,7 @@ font: italic #FFF;
 }
 
 
-.container-1
-{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 1rem;
-  border: 5px solid #fe2712;
-  align-items: center;
-  justify-content: center;
-  margin:  0;
-  padding: 0;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
+
 .container-2
 {
   display: flex;
@@ -89,6 +76,18 @@ color: #fe2712
   border: 5px solid #ffcc5c;
   align-items: flex-start;
   
+}
+.container-1
+{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+  border: 5px solid #fe2712;
+  margin:  0;
+  padding: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .list{
   border: 5px solid #ffcc5c;
