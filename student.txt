@@ -1,3 +1,5 @@
 Student name: Joël Gooren
 Student number: 690269
 Student class: IT1C
+URL student GitHub website: https://github.com/Jojoelo12
+URL student GitHub repository: https://github.com/Jojoelo12/WebMarkup
