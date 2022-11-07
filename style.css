@@ -1,0 +1,152 @@
+#ar
+{
+    float: right;    
+     margin: left;
+     width: 300px;
+     height: 167px;
+    }
+#as {
+width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+  font-style: italic #FFF;
+  background-color: #fe2712;
+}
+#txt
+{
+width: 69%;
+font-style: italic #FFF;
+font: italic #FFF;
+}
+#cs
+{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    position: fixed;
+    bottom: 4px;
+    right: 0;
+    opacity: 50%;
+    color: #FFF;
+    background-color: #FA0;
+
+}
+.container-1
+{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 5px solid #fe2712;
+  height: 8%;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-2
+{
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 5px solid #fe2712;
+  height: 30%;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.container > div 
+{
+padding: 10px;
+text-align: center;
+font-size: 2em;
+color: #fe2712
+}
+.list
+{
+  height: 10%;
+  justify-content: flex-start;
+  flex: 1;
+}
+.item
+{
+  background: #fe2712;
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+.text
+{
+  width: 68%;
+}
+.picture
+{
+  width: 31%;
+  margin-left: 100%;
+  align-items: flex-end;
+}
+.video
+{
+  width: 20;
+  height: 10%;
+  padding-top: 10px
+}
+.container{
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+body
+{
+  margin: 0;
+}
+
+html, body{
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+}
+.container > div:nth-child(1)
+{
+  background-color: #FFDEDB;
+}
+.container > div:nth-child(2)
+{
+  background-color: #ff6f69;
+}
+.container > div:nth-child(3)
+{
+  background-color: #88d8b0;
+}
+.video
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: auto;
+}
+.item-2
+{
+  background: #fe2712;
+  padding: 5px;
+  width: 350px;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
