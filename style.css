@@ -1,12 +1,17 @@
 #ar
 {
-    float: right;    
-     margin: left;
-     width: 300px;
-     height: 167px;
-    }
-#as {
-width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  float: center; 
+  margin: left;   
+  width: 300px;
+  height: 167px;
+    
+}
+#as 
+{
+  width: 30%;
   padding-left: 15px;
   margin-left: 15px;
   position: fixed;
@@ -44,9 +49,8 @@ font: italic #FFF;
   margin: 0;
   list-style: none;
   border: 5px solid #fe2712;
-  height: 30%;
   align-items: flex-start;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .list > div 
 {
@@ -153,18 +157,19 @@ html, body{
   background: #fe2712;
   color: white;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.5em;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   flex-shrink: 1;
+  flex-wrap: wrap;
 }
-.container-1 h1
+.list h1
 {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.container-1 h2
+.list h2
 {
   flex-grow: 1;
   flex-shrink: 1;
