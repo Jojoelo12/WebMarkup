@@ -67,8 +67,13 @@ color: #fe2712
 .picture
 {
   width: 31%;
-  margin-left: 100%;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+.logo
+{
+  width: 10%;
+  align-items: center;
+  justify-content: center;
 }
 .video
 {
@@ -80,6 +85,69 @@ color: #fe2712
   border: 5px solid #ffcc5c;
   align-items: flex-start;
   
+}
+.flexbox-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  
+}
+.flexbox-item
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox-item-nav
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexbox-item-1
+{
+  display: flex;
+  background: #fe2712;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+.flexbox-list-1
+{
+  display: flex;
+  background: #fe2712;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.flexbox-list-1 h1
+{
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox-list-1 h2
+{
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
 }
 .container-1
 {
@@ -148,29 +216,6 @@ html, body{
   font-size: 2em;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-.item
-{
-  display: flex;
-  background: #fe2712;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5em;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-wrap: wrap;
-}
-.list h1
-{
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-.list h2
-{
   flex-grow: 1;
   flex-shrink: 1;
 }
