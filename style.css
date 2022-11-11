@@ -3,17 +3,21 @@
   display: flex;
   align-items: center;
   justify-content: center;   
-  float: center; 
-  margin: left;   
+  float: center;   
+  margin-left: 60%;
+  margin-right: 20%;
   width: 300px;
-  height: 167px;
+  height: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
     
 }
 #as 
 {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
+  width: 15%;
+  padding-left: 10px;
+  margin-left: 10px;
   position: fixed;
   bottom: 5%;
   right: 0;
@@ -28,9 +32,9 @@ font: italic #FFF;
 }
 #cs
 {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
+    width: 15%;
+    padding-left: 10px;
+    margin-left: 10px;
     position: fixed;
     bottom: 4px;
     right: 0;
@@ -60,9 +64,13 @@ font-size: 2em;
 color: #fe2712
 }
 
-.text
+.flexbox-item-text
 {
-  width: 68%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 40%;
+  
 }
 .picture
 {
@@ -101,6 +109,15 @@ color: #fe2712
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.flexbox-item-picture
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .flexbox-item-nav
 {
