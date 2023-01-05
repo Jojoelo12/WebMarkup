@@ -25,6 +25,43 @@
   color: white;
   background-color: #fe2712;
 }
+#as1 
+{
+  width: 15%;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+  font-style: italic #FFF;
+  color: white;
+  background-color: #fe2712;
+}
+
+#as2 
+{
+  width: 15%;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+  font-style: italic #FFF;
+  color: white;
+  background-color: #fe2712;
+}
+#as3 
+{
+  width: 15%;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+  font-style: italic #FFF;
+  color: white;
+  background-color: #fe2712;
+}
 #txt
 {
 width: 69%;
@@ -192,6 +229,7 @@ font: italic #FFF;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 .flexbox-item-picture
 {
@@ -206,14 +244,40 @@ font: italic #FFF;
 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background-color: #333333;
+  color: white;
+  
+}
+.flexbox-item-nav ul
+{
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.flexbox-item-nav li
+{
+  float: left;
+}
+.flexbox-item-nav li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.flexbox-item-nav li a:hover
+{
+  background-color: #111111;
 }
 .flexbox-item-1
 {
   display: flex;
-  background: #fe2712;
-  color: white;
+  color:white;
   font-weight: bold;
   font-size: 1.5em;
   justify-content: center;
@@ -221,19 +285,22 @@ font: italic #FFF;
   flex-grow: 1;
   flex-shrink: 1;
   flex-wrap: wrap;
+  
 }
 .flexbox-list-1
 {
   display: flex;
-  background: #fe2712;
+  background-color: red;
   color: white;
   font-weight: bold;
   font-size: 1.5em;
   justify-content: center;
+  align-items: flex-start;
   flex-grow: 1;
   flex-shrink: 1;
   flex-wrap: wrap;
   gap: 1rem;
+  
 }
 .flexbox-list-1 h1
 {
@@ -290,4 +357,131 @@ font: italic #FFF;
   align-items: center;
   flex-grow: 1;
   flex-shrink: 1;
+}
+#productGrid
+{
+  display: grid;
+  
+  grid-template-areas: 
+  'logoGrid logoGrid logoGrid'
+  'headerGrid headerGrid headerGrid'
+  'navGridPC navGridPC navGridPC'
+  'product2 product1 product3'
+  'product5 product6 product4'
+  'as1 as2 as3'
+  'footer footer footer'
+  
+  ;
+}
+.logoGrid
+{
+  height: 50px;
+  width: 50px;
+  grid-area: logoGrid;
+}
+#headerGrid
+{
+  grid-area: headerGrid;
+}
+#headerGrid h1
+{
+  text-align: center;
+  background: red;
+  color: white;
+}
+#headerGrid h2{
+  text-align: center;
+  background: red;
+  color: white;
+}
+.navGridPC
+{
+  background-color: red;
+  grid-area: navGridPC;
+}
+.navGridPC ul
+{
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.navGridPC li
+{
+  float: left;
+}
+.navGridPC li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.navGridPC li a:hover
+{
+  background-color: #111111;
+}
+.pictureGrid
+{
+  height: 150px;
+  width: 225px;
+}
+.product1
+{
+  background-color: black;
+  color: white;
+  grid-area: product1;
+}
+.product2
+{
+  background-color: red;
+  color: white;
+  grid-area: product2;
+}
+.product3
+{
+  background-color: white;
+  grid-area: product3;
+}
+.product4
+{
+  background-color: red;
+  color: white;
+  grid-area: product4;
+}
+.product5
+{
+  background-color: black;
+  color: white;
+  grid-area: product5;
+}
+.product6
+{
+  background-color: white;
+  grid-area: product6;
+}
+.as1
+{
+  background-color: white;
+  grid-area: as1;
+}
+.as2
+{
+  background-color: red;
+  grid-area: as2;
+}
+.as3
+{
+  background-color: black;
+  grid-area: as3;
+}
+#pricingGrid
+{
+  display: grid;
+  grid-template-areas: 
+  'logoGrid logoGrid logoGrid'
+  ''
+  ;
 }
